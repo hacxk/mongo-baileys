@@ -1,9 +1,9 @@
 {
   "name": "mongo-baileys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save your baileys session in mongodb using this package",
   "main": "dist/js/index.js",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/js/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hacxk/mongo-baileys.git"

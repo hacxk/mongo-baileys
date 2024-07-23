@@ -102,7 +102,7 @@ startWhatsApp().catch(err => console.error("Unexpected error:", err));
 ```typescript
 import { MongoClient, Collection, Document } from "mongodb";
 import { makeWASocket, AnyMessageContent } from '@whiskeysockets/baileys';
-import useMongoDBAuthState from 'mongo-baileys';
+import { useMongoDBAuthState } from 'mongo-baileys';
 import * as Boom from '@hapi/boom';
 import { AuthenticationCreds } from "@whiskeysockets/baileys";
 
